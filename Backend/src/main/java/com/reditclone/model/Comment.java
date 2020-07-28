@@ -11,7 +11,7 @@ import java.time.Instant;
 import static javax.persistence.FetchType.LAZY;
 import static javax.persistence.GenerationType.IDENTITY;
 
-@NoArgsConstructor
+
 @Builder
 @Entity
 public class Comment {

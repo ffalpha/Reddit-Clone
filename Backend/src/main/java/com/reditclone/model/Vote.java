@@ -9,7 +9,7 @@ import javax.validation.constraints.NotNull;
 import static javax.persistence.FetchType.LAZY;
 import static javax.persistence.GenerationType.IDENTITY;
 
-@NoArgsConstructor
+
 @Entity
 @Builder
 public class Vote {
